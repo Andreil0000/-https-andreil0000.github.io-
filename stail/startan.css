@@ -103,7 +103,7 @@ section {
    margin-top: -3px;
 }
 
-h2 {
+.feat {
    text-align: center;
    color: #000;
    font-family: Montserrat;
@@ -170,7 +170,7 @@ h2 {
    font-style: normal;
    font-weight: 500;
    line-height: 136.7%;
-   margin: -9px 61px;
+   margin: -9px -3px;
 }
 
 .bg-img {
@@ -194,7 +194,7 @@ h2 {
    width: 229px;
    text-align: center;
    transition: all 0.5s ease;
-   margin: 35px 52px;
+   margin: 37px -6px;
 }
 
 .footer {
@@ -217,16 +217,68 @@ h2 {
    .container {
       max-width: 720px;
    }
+   .offer {
+      transform: translate(0%, -2px);
+  }
+  .title {
+   width: 700px;
+  }
+   .offer-wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 13px;
+   }
+   .img-header {
+      transform: translate(0%, 23px);
+      margin: 0 auto;
+  }
+  .button {
+       margin:0 auto;
+  }
+  .text 
+  {
+   width: 700px;
+  }
+  .feature-title {
+   width: 513px;
 }
-
+  .header{
+ padding-top: 15px;
+  }
+  .header-logo{
+   display: block;
+     margin: auto;
+  }
+  .offer-aside {
+   width: 700px;
+   display: flex;
+   flex-direction: column-reverse;
+   text-align: center;
+   gap: 71px;
+   padding: 101px 0px 136px 20px;
+  }
+  .bg{
+   transform: translate(-4%, 35px);
+    margin: 0 auto;
+}
+.bg-image {
+   transform: translate(-3%, 2px);
+}
+.features-container {
+   width: 720px;
+}
+.intro {
+   margin: -9px 50px;
+}
+}
 @media (max-width: 767px) {
    .container {
       max-width: 540px;
-   }
 }
-
+}
 @media (max-width: 575px) {
    .container {
       padding: 0 15px;
-   }
+}
 }

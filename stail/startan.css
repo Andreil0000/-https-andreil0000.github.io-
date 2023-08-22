@@ -17,7 +17,7 @@ background: #FDFCEF;
    background: #FDFCEF;
 }
 section {
-padding-top: 120px;
+   padding-top: 80px;
 }
 .header {
    padding-top: 60px;
@@ -30,6 +30,7 @@ padding-top: 120px;
    font-weight: 700;
    line-height: 140%;
    width: 465px;
+   margin-bottom: 30px;
 }
 .header-image {
    width: 182px;
@@ -42,6 +43,10 @@ padding-top: 120px;
    line-height: 136.7%;
    width: 423px;
    color: #000;
+   margin-bottom: 30px;
+}
+.img-header{
+    margin-top: 22px;
 }
 .button {
    border-radius: 100px;
@@ -61,12 +66,14 @@ padding-top: 120px;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   margin-top: 79px;
+   gap: 179px;
+   margin-top: 56px;
 }
-
+.offer{
+  margin: 30px 0 auto;
+  }
 .hero-image{
    width: 465px;
-   /* transform: translate(139%, -421px); */
 }
 .features-container {
    width: 720px;
@@ -110,13 +117,20 @@ line-height: 140%;
 }
 .feature-title {
    font-size: 30px;
-   margin-bottom: 11px;
+   margin-bottom: -5px;
 }
-
-.wrap {
+  .aside{
+   margin-top: 21px;
+  }
+.offer-aside{
+   display: flex;
+   padding: 76px 125px 75px 122px;
+   justify-content: center;
+   align-items: center;
+   gap: 185px;
    border-radius: 60px;
    background: linear-gradient(148deg, #FFF6DF 0%, #FFDFDE 100%);
-   padding: 76px 504px 75px 122px;
+   padding: 42px 119px 44px 117px;
 }
 .tattle{
    color: #000;
@@ -137,12 +151,11 @@ line-height: 140%;
    line-height: 136.7%;
    margin: -9px 61px;
 }
-.aside-image{
-   width: 287px;
-   height: 287px;
-   width: 287px;
-   height: 287px;
-   transform: translate(-129%, 0px);
+.bg-img{
+  width: 287px;
+}
+.bg-image{
+   transform: translate(-18%, 3px);
 }
 .bg{
    border-radius: 100px;
@@ -161,263 +174,22 @@ line-height: 140%;
 }
 .footer {
    text-align: center;
-   padding: 120px 0;
+   padding: 105px 0;
 }
 @media (max-width: 1199px) {
    .container {
        max-width: 960px;
    }
-    .hero-image  {
-      transform: translate(0%, 0px);
-   }
-   .aside-image {
-      transform: translate(-156%, 0px);
-   } 
 } 
 @media (max-width: 1050px) {
-   .hero-image  {
-      transform: translate(-16%, 0px);
-   }
-}
-@media (max-width: 991px) {
-   .container {
-       max-width: 720px;
-      }
-      .header-logo{
-       transform: translate(141%, 36px);
-      }
-   .offer-wrapper {
-      flex-direction: column;
-      text-align: center;
-   }
-   .offer{
-      transform: translate(0%, 514px);
-   }
-   .hero-image {
-      transform: translate(-2%, -305px);
-   }
-   .title{
-      width: 720px;
-   }
-   .text{
-      transform: translate(-0%, -0px);
-      width: 720px;
-   }
-   .button {
-      transform: translate(102%, 10px);
-   }
-   .wrap {
-      padding: 101px 37px 88px 159px;
-      height: 835px;
-   }
-   .aside-image{
-      transform: translate(-2%, -819px);
-   }
-   .tattle {
-      transform: translate(-17%, 269px)
-   }
-   .intro {
-      transform: translate(-24%, 271px)
-   }
-   .bg{
-      transform: translate(-4%, 271px);
-   }
-   .footer{
-      margin-top: -142px;
-    }
 }
 @media (max-width: 767px) {
    .container {
       max-width: 540px;
-  }
-  .feature {
-      flex-direction: column;
-      text-align: center;
-  }
-  .features-container {
-   width: auto;
-  }
-  .action-wrap {
-      gap: 50px;
-  }
-  .header-logo {
-  display: block;
-  transform: translate(100%, 35px);
-  }
-}
-@media (max-width: 740px) {
-   .wrap {
-    width: 100%;
-  }
-  .aside-image{
-   transform: translate(-2%, -819px);
-}
-.tattle {
-   display: block;
-   margin: 0 auto;
-   transform: translate(-35%, 269px);
-   margin-bottom: 20px;
-}
-.intro {
-   display: block;
-   margin: 0 auto;
-   transform: translate(-31%, 271px);
-   margin-bottom: 20px;
-}
-.bg{
-  display: block;
-  margin: 0 auto;
-  transform: translate(-39%, 271px);
- }
- .title {
-   width: 465px;
-text-align: center;
-transform: translate(0%, 0px);
-}
-.text {
-   width: 465px;
-  text-align: center;
-  transform: translate(0%, 0px);
- }
- .button {
-   transform: translate(50%, 10px);
-}
-.offer {
-   transform: translate(-1%, 558px);
-}
-h2{
-   width: 320px;
-   transform: translate(33%, 0px);
-   text-align: center;
-}
-.feature-text {
-   width: 320px;
-   transform: translate(8%, 0px);
-   text-align: center;
-}
-.feature-title {
-   width: 320px;
-   transform: translate(0%, 0px);
-   text-align: center;
-}
-.hero-image {
-   transform: translate(0%, -305px);
 }
 }
 @media (max-width: 575px) {
    .container {
        padding: 0 15px;
-   }
-   .hero-image {
-      width: 64%;
-   } 
-  .title {
-   width: 296px;
-   text-align: center;
-   transform: translate(0%, 52px);
-   padding-bottom: 30px;
-  }
-  .offer {
-   transform: translate(0%, 514px);
-}
-.text {
-   width: 310px;
-   text-align: center;
-   transform: translate(0%, 19px)
-}
-.button {
-   transform: translate(16%, 33px)
-}
-.section {
-   padding-top: 54px;
-}
-.aside-image {
-   max-width: 43%;
-   transform: translate(0%, -731px);
-   height: 201px;
-} 
-.features-container {
-   /* transform: translate(-2%, -123px); */
-}
-.tattle {
-   width: 280px;
-   transform: translate(-25%, 162px);
-}
-.intro {
-   width: 265px;
-   transform: translate(-26%, 167px);
-}
-  h2 {
-   width: 300px;
-   transform: translate(34%, 0px);
-  }
-  .header-logo {
-   display: block;
-   transform: translate(100%, 35px);
-}
-.offer-wrapper {
-   transform: translate(0%, -223px);
-}
-.wrap {
-   transform: translate(1%, 92px)
-}
-.feature-text {
-   width: 240px;
-   transform: translate(8%, 0px);
-   }
-   .feature-title {
-      width: 266px;
-      transform: translate(1%, 0px);
-  }
-.bg {
-   transform: translate(-30%, 173px);
-}
-.footer {
-   padding: 0px 0;
-   margin-top: -232px;
-}
-}
-@media (max-width: 420px) {
-   .offer-wrapper {
-      transform: translate(0%, -223px);
-  }
-  .title {
-   transform: translate(0%, 52px);
-}
-.text {
-   transform: translate(0%, 19px);
-}
-.button {
-   transform: translate(16%, 33px);
-}
-h2 {
-   width: 205px;
-   transform: translate(16%, 0px);
-}
-.feature-title {
-   width: 266px;
-   transform: translate(1%, 0px);
-}
-.feature-text {
-   width: 240px;
-   transform: translate(8%, 0px);
-}
-.tattle {
-   width: 242px;
-   transform: translate(-56%, 162px);
-}
-.intro {
-   width: 203px;
-   transform: translate(-58%, 167px);
-}
-.bg {
-   transform: translate(-58%, 173px);
-}
-section {
-   padding-top: 229px;
-}
-.header-logo {
-   display: block;
-   transform: translate(25%, 35px);
 }
 }

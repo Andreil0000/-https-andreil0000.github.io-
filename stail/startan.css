@@ -1,53 +1,62 @@
-.body{
+.body {
    font-family: 'Montserrat', sans-serif;
-  background-color: #FF6861; 
+   background-color: #FF6861;
    font-size: 18px;
    font-weight: 500;
    margin: 0;
    padding: 0;
    border-radius: 50px;
-background: #FDFCEF;
+   background: #FDFCEF;
 }
+
 * {
    box-sizing: border-box;
 }
+
 .container {
    max-width: 1110px;
    margin: 0 auto;
    background: #FDFCEF;
 }
+
 section {
-   padding-top: 80px;
+   padding-top: 88px;
 }
+
 .header {
    padding-top: 60px;
 }
-.title{
+
+.title {
    color: #000;
    font-family: Montserrat;
    font-size: 50px;
    font-style: normal;
    font-weight: 700;
    line-height: 140%;
-   width: 465px;
+   width: 420px;
    margin-bottom: 30px;
 }
+
 .header-image {
    width: 182px;
 }
-.text{
+
+.text {
    font-family: Montserrat;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
    line-height: 136.7%;
-   width: 423px;
+   width: 360px;
    color: #000;
    margin-bottom: 30px;
 }
-.img-header{
-    margin-top: 22px;
+
+.img-header {
+   margin-top: 22px;
 }
+
 .button {
    border-radius: 100px;
    background: #FF6861;
@@ -62,19 +71,23 @@ section {
    text-align: center;
    transition: all 0.5s ease;
 }
-.offer-wrapper  {
+
+.offer-wrapper {
    display: flex;
    align-items: center;
    justify-content: space-between;
    gap: 179px;
    margin-top: 56px;
 }
-.offer{
-  margin: 30px 0 auto;
-  }
-.hero-image{
-   width: 465px;
+
+.offer {
+   margin: 30px 0 auto;
 }
+
+/* .hero-image {
+   width: 465px;
+} */
+
 .features-container {
    width: 720px;
    display: flex;
@@ -82,6 +95,7 @@ section {
    flex-direction: column;
    margin: 0 auto
 }
+
 .feature {
    display: flex;
    gap: 34px;
@@ -89,50 +103,56 @@ section {
    margin-top: -3px;
 }
 
-h2{
-text-align: center;
-color: #000;
-font-family: Montserrat;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; 
+h2 {
+   text-align: center;
+   color: #000;
+   font-family: Montserrat;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%;
 }
-.feature-title{
+
+.feature-title {
    color: #000;
    font-family: Montserrat;
    font-size: 30px;
    font-style: normal;
    font-weight: 700;
    line-height: 140%;
+   width: 613px;
 }
-.feature-text{
+
+.feature-text {
    font-family: Montserrat;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
    line-height: 136.7%;
    color: #000;
-   width: 613px;
+   width: 510px;
 }
+
 .feature-title {
    font-size: 30px;
    margin-bottom: -5px;
 }
-  .aside{
-   margin-top: 21px;
-  }
-.offer-aside{
+
+.aside {
+   margin-top: 11px;
+}
+
+.offer-aside {
    display: flex;
-   padding: 76px 125px 75px 122px;
    justify-content: center;
    align-items: center;
    gap: 185px;
    border-radius: 60px;
    background: linear-gradient(148deg, #FFF6DF 0%, #FFDFDE 100%);
-   padding: 42px 119px 44px 117px;
+   padding: 42px 126px 43px 117px;
 }
-.tattle{
+
+.tattle {
    color: #000;
    width: 475px;
    font-family: Montserrat;
@@ -141,7 +161,8 @@ line-height: 140%;
    font-weight: 700;
    line-height: 140%
 }
-.intro{
+
+.intro {
    color: #000;
    width: 371px;
    font-family: Montserrat;
@@ -151,45 +172,61 @@ line-height: 140%;
    line-height: 136.7%;
    margin: -9px 61px;
 }
-.bg-img{
-  width: 287px;
+
+.bg-img {
+   width: 287px;
 }
-.bg-image{
+
+.bg-image {
    transform: translate(-18%, 3px);
 }
-.bg{
+
+.bg {
    border-radius: 100px;
-    background: #FF6861;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    padding: 22px 0;
-    font-weight: 700;
-    line-height: 1.19em;
-    display: block;
-    width: 229px;
-    text-align: center;
-    transition: all 0.5s ease;
-    margin: 35px 52px;
+   background: #FF6861;
+   font-size: 18px;
+   color: #fff;
+   text-decoration: none;
+   padding: 22px 0;
+   font-weight: 700;
+   line-height: 1.19em;
+   display: block;
+   width: 229px;
+   text-align: center;
+   transition: all 0.5s ease;
+   margin: 35px 52px;
 }
+
 .footer {
    text-align: center;
    padding: 105px 0;
 }
+
 @media (max-width: 1199px) {
    .container {
-       max-width: 960px;
+      max-width: 960px;
    }
-} 
-@media (max-width: 1050px) {
+
+   .img-header {
+      transform: translate(-25%, 0px);
+   }
 }
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+   .container {
+      max-width: 720px;
+   }
+}
+
 @media (max-width: 767px) {
    .container {
       max-width: 540px;
+   }
 }
-}
+
 @media (max-width: 575px) {
    .container {
-       padding: 0 15px;
-}
+      padding: 0 15px;
+   }
 }

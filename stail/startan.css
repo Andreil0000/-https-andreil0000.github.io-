@@ -72,17 +72,17 @@ h2 {
    font-size: 18px;
    color: #fff;
    text-decoration: none;
-   padding: 22px 0;
+   padding: 22px 70px;
    font-weight: 700;
    line-height: 1.19em;
    display: block;
-   width: 216px;
+   width: 228px;
    text-align: center;
    transition: all 0.5s ease;
 }
 
 .button:hover {
-   background:#E47C64;
+   background:#ff4e26;;
 }
 
 .hero-text {

@@ -2,6 +2,8 @@ body {
    font-family: 'Montserrat', sans-serif;
    background-color: #FF6861;
    background: #FDFCEF;
+   margin: 0;
+   padding: 0;
 }
 
 * {
@@ -31,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
    font-weight: 700;
    line-height: 1.4em;
    margin: 0;
+   max-width: 100%;
 }
 
 .header {
@@ -50,7 +53,9 @@ h2 {
    text-align: center;
    margin-bottom: 70px;
 }
-
+.img_logo{
+  max-width: 100%;
+}
 .hero-image {
    width: 465px;
 }
@@ -58,6 +63,7 @@ h2 {
 .intro {
    font-size: 18px;
    margin: 30px 0;
+   max-width: 100%
 }
 
 .button {
@@ -76,7 +82,7 @@ h2 {
 }
 
 .button:hover {
-   background:#fb471d;
+   background:#E47C64;
 }
 
 .hero-text {
@@ -146,7 +152,6 @@ h2 {
 .action-wrap {
    border-radius: 60px;
 background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
-   border-radius: 60px;
    display: flex;
    align-items: center;
    padding: 69px 168px 83px 123px;
